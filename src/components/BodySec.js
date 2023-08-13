@@ -17,7 +17,7 @@ export default function BodySec() {
           </div>
         </div>
         <div className="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-          <img src="images/pic2.jpg" className="img-fluid animated" alt="some imggg" />
+          <img src="images/pic1.jpg" className="img-fluid animated" alt="some imggg" />
           
         </div>
       </div>
