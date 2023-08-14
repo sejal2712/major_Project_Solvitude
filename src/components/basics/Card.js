@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import "./style.css"
-import cardAPI from "./cardAPI.js"
-import MenuCard from "./CardUI"
+import "./ServiceStyle.css"
+import cardAPI from "./ServiceCardAPI.js"
+import MenuCard from "./ServiceCardUI.js"
 
 
 const Restaurant = () => {
