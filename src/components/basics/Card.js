@@ -11,7 +11,7 @@ const Restaurant = () => {
 
   return (
     <>
-     <h1 style={{textAlign:"center",margin:"30px"}}>OUR SERVICES</h1>
+     <h1 style={{textAlign:"center",margin:"30px", fontFamily:"sans-serif", fontWeight:"bold"}}>OUR SERVICES</h1>
      <div style={{background:"#17cf97"}}>
      <MenuCard cardData={cardData}/>
 
