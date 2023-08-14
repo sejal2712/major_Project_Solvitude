@@ -121,11 +121,7 @@
   }*/
   
   .card-tag:hover {
-<<<<<<< HEAD:src/components/basics/style.css
-    background: #1b2430;
-=======
     background: #17cf97;
->>>>>>> 31d7b71dbe016260a6e6b691f11cbae5acc70c64:src/components/basics/ServiceStyle.css
     color:white;
     text-decoration: none;
 
