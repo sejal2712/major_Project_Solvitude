@@ -26,7 +26,7 @@
     grid-template-columns: repeat(3, minmax(300px, 500px));
     grid-gap: 50px;
     justify-content: space-around;
-    background-color: #17cf97;
+  
     
   }
   
@@ -97,21 +97,35 @@
     height: 1px;
     position: absolute;
     top: 9px;
-    width: 75%;
+    width: 59%;
   }
   
   .card-tag {
-    float: right;
-    margin: 5px 10px 10px 250px;
-    border: 1px solid #aaa;
+    float: right ;
+    border: 1px solid #17cf97;
     padding: 5px 5px;
     cursor: pointer;
     text-decoration: none;
+    color:#1b2430;
     border-radius: 10px 100px/120px 100px;
+    text-align: center;
+    
+    
   }
+ 
+ /* a:hover{
+    text-decoration: none;
+    background: #17cf97;
+    color:white;
+
+  }*/
   
   .card-tag:hover {
+<<<<<<< HEAD:src/components/basics/style.css
     background: #1b2430;
+=======
+    background: #17cf97;
+>>>>>>> 31d7b71dbe016260a6e6b691f11cbae5acc70c64:src/components/basics/ServiceStyle.css
     color:white;
     text-decoration: none;
 
@@ -153,3 +167,69 @@
 .overflow{
   overflow: hidden;
 }
+
+
+
+/****** NavService of service  *******/
+.NavService {
+  padding: 50px;
+  text-align: center;
+  background-color: #fff;
+  margin-bottom:0px ;
+  justify-content: center;
+}
+
+.NavService h1 {
+  padding-bottom: 20px;
+  text-transform: capitalize;
+  
+}
+
+/** button group styles **/
+.btn-service{
+  border-radius: 1rem;
+  text-transform: capitalize;
+}
+.btn-service-category {
+  border: none;
+  /* min-width: 6rem; */
+  padding: 1.5rem 3rem;
+  background-color: #dcf6e0;
+  cursor: pointer;
+  margin: 0;
+  font-size: 17px;
+  box-shadow: inset 0px 0px 0px -15px #17cf97;
+  transition: all 300ms ease-out;
+  text-transform: capitalize;
+}
+.btn-service-category:last-child {
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.btn-service-category:first-child {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.btn-service-category:hover,
+.btn-service-category:focus {
+  color:#17cf97;
+  box-shadow: inset 0px -20px 0px -15px #17cf97;
+}
+.btn-service-category:focus {
+  outline: none;
+}
+.btn-service-category:after {
+  content: "✔️";
+  margin-left: 0.5rem;
+  display: inline-block;
+  color: #17cf97;
+  position: absolute;
+  transform: translatey(10px);
+  opacity: 0;
+  transition: all 200ms ease-out;
+}
+.btn-service-category--active:after {
+  opacity: 1;
+  transform: translatey(-2px);
+}
+
