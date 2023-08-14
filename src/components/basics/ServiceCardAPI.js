@@ -24,7 +24,7 @@ id:4,
 
   serviceName:"Amazon Cloudfront",
   image:"images/img2.jpg",
-  category:"Network and Content Delivery",
+  category:"Networking",
   description:"Amazon CloudFront is a web service that speeds up distributio static and dynamic web content,to your users. CloudFront delivers your content through edge locations."
 },
 {
