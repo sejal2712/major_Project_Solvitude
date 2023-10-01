@@ -26,6 +26,8 @@ const Service = () => {
     });
     setcardData(updatedService);
   };
+  
+
 
 
   return (
