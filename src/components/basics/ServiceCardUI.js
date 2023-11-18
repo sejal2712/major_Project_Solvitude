@@ -1,14 +1,18 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
+import { Animate } from 'react-simple-animate'
 
 
-const ServiceCard = ({cardData}) => {
+
+const ServiceCardUI = ({cardData}) => {
 
   const navigate = useNavigate();
 
   const handleTemplateClick = (id) => {
     const selectedCard = cardData.find(card => card.id === id);
     if (selectedCard) {
+      //to pass the data to CardSinglePage
+      
       navigate(`/card/${id}`, { state: { selectedCard } });
     }
   };
@@ -26,6 +30,17 @@ const ServiceCard = ({cardData}) => {
             <>
             
             <div className='card-container' key={curElem.id}>
+            <Animate
+                play
+                duration={1}
+                delay={0.3}
+                start={{
+                  transform: 'translateX(-200px)'
+                }}
+                end={{
+                  transform: 'translateX(0px)'
+                }}
+              >
             <div className='card'>
               <div className='card-body'>
                 
@@ -41,6 +56,9 @@ const ServiceCard = ({cardData}) => {
     
               
             </div>
+            </Animate>
+
+            
           </div>
           
           </>
@@ -53,4 +71,5 @@ const ServiceCard = ({cardData}) => {
   )
 }
 
-export default ServiceCard
+export default ServiceCardUI;
+

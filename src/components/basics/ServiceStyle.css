@@ -230,3 +230,61 @@
   transform: translatey(-2px);
 }
 
+
+
+    /* CSS styling for nodejs and reactjs div*/
+    .dpcontainer {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 20px;
+      margin: 40px;
+      background-color: #dcf6e0;
+      box-shadow: 30px 30px #17cf97;
+      height: 400px;
+      
+    }
+
+    .image-container {
+      flex: 1;
+      max-width: 50%;
+    }
+
+    img {
+      width: 150px;
+      height: 150px
+    }
+
+    .content-container {
+      flex: 1;
+      max-width: 50%;
+      padding: 0 0px;
+    }
+
+    .dphead {
+      margin-bottom: 10px;
+      padding-bottom: 30px
+    }
+
+    .dppara{
+      color: #555;
+    }
+
+    .deploybtn {
+      margin: 20px 0px;
+      padding: 10px;
+      background-color:#17cf97;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #55ae93;
+    }
+    .maindiv{
+        height: 500px;
+        display: flex;
+        flex-direction: row;
+    }
+  

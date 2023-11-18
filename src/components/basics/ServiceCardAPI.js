@@ -2,6 +2,7 @@ const Api=[{
   id:1,
   serviceName:"EC2",
   image:"images/img1.jpg",
+  image2:"https://miro.medium.com/v2/resize:fit:740/1*q6rLVYKhvKWyfQWTq7z8_g.png",
   category:"Compute",
   description:"Amazon EC2 is a web service that provides resizable compute capacity in the cloud. It is designed to make web-scale computing easier for developers.",
 

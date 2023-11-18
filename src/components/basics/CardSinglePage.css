@@ -34,6 +34,7 @@
   .Card-image {
     max-width: 100%;
     height: auto;
+    height: 300px;
     margin-bottom: 20px;
   }
   
@@ -42,4 +43,16 @@
     font-size: 16px;
     line-height: 1.5;
   }
+
+  .back_btn{
+    padding: 5px;
+    width:100px;
+    border-radius: 5px;
+    position: relative;
+    margin: 20px;
+    cursor: pointer;
+    
+    
+  }
+  
   
