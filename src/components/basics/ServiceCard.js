@@ -43,12 +43,12 @@ const ServiceCard = () => {
         <div className="maindiv">
           <div className="dpcontainer">
             <div className="image-container">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png" alt="Image Alt Text"/>
+              <img  className='dpimg'  src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png" alt="Image Alt Text"/>
             </div>
             <div className="content-container">
               <h2 className='dphead'>ReactJS</h2>
               <p>
-                React.js is a JavaScript library for building user interfaces.
+                React JS is a JavaScript library for building user interfaces.
                 It enables the creation of reusable UI components for efficient development.
               </p>
               <button className="deploybtn" onClick={() => handleDeployClick()}>Click to deploy &rarr;</button>
@@ -56,7 +56,7 @@ const ServiceCard = () => {
           </div>
           <div className="dpcontainer">
             <div className="image-container">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/2560px-Node.js_logo.svg.png" alt="Image Alt Text"/>
+              <img className='dpimg' src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/2560px-Node.js_logo.svg.png" alt="Image Alt Text"/>
             </div>
             <div className="content-container">
               <h2 className='dphead'>NodeJS</h2>
