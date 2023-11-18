@@ -250,7 +250,7 @@
       max-width: 50%;
     }
 
-    img {
+    .dpimg {
       width: 150px;
       height: 150px
     }
@@ -279,7 +279,7 @@
       cursor: pointer;
     }
 
-    button:hover {
+    .deploybtn:hover {
       background-color: #55ae93;
     }
     .maindiv{
