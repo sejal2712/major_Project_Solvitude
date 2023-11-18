@@ -48,7 +48,7 @@ const ServiceCard = () => {
             <div className="content-container">
               <h2 className='dphead'>ReactJS</h2>
               <p>
-                React.js is a JavaScript library for building user interfaces.
+                React JS is a JavaScript library for building user interfaces.
                 It enables the creation of reusable UI components for efficient development.
               </p>
               <button className="deploybtn" onClick={() => handleDeployClick()}>Click to deploy &rarr;</button>
